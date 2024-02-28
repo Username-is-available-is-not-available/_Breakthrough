@@ -4,7 +4,10 @@
   "name": "_Breakthrough",
   "resources": [
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":0,},
+    {"id":{"name":"spr_ball2","path":"sprites/spr_ball2/spr_ball2.yy",},"order":3,},
+    {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"spr_brick","path":"sprites/spr_brick/spr_brick.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

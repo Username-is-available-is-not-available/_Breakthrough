@@ -3,12 +3,14 @@
   "resourceVersion": "1.6",
   "name": "_Breakthrough",
   "resources": [
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},"order":0,},
+    {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":0,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":0,},
-    {"id":{"name":"spr_ball2","path":"sprites/spr_ball2/spr_ball2.yy",},"order":3,},
     {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"obj_brick","path":"objects/obj_brick/obj_brick.yy",},"order":2,},
+    {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},"order":1,},
     {"id":{"name":"spr_brick","path":"sprites/spr_brick/spr_brick.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -25,14 +27,14 @@
     {"name":"Xbox Series XS","path":"options/xboxseriesxs/options_xboxseriesxs.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

@@ -1,9 +1,9 @@
 if(bbox_left < 0 or bbox_right > room_width){
-	x = clamp(x ,0 + sprite_xoffset, room_width - sprite_xoffset
+	x = clamp(x ,0 + sprite_xoffset, room_width - sprite_xoffset)
 	hspeed = hspeed * -1;
 }
 if(bbox_top < 0){
-	x = clamp(x ,0 + sprite_xoffset, room_height - sprite_xoffset
+	y = clamp(y ,0 + sprite_xoffset, room_height - sprite_xoffset)
 	vspeed = vspeed * -1;
 }
 if(bbox_bottom > room_height){

@@ -4,5 +4,5 @@ if(image_index == 0){
 		alarm[0] = 10*room_speed;
 	}
 }	else{
-	obj_bat.speed = 3;
+	obj_ball.speed = 3;
 }

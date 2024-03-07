@@ -5,11 +5,11 @@ draw_text(room_width-8, 8, "High Score: " + string(global.high_score));
 draw_set_halign(fa_left);
 
 _x = (room_width/2) - ((global.player_lives-1) * 32);
-repeat(3){
+repeat(global.player_lives){
 	draw_sprite_ext
 	(spr_bat, 0, 
 	_x , room_height-64, 
 	0.75, 0.75,
 	0, c_white, 0.5);
-	_x += 128
+	_x += 96
 }

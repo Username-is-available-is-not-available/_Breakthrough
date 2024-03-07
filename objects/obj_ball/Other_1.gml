@@ -14,6 +14,7 @@ if(bbox_bottom > room_height){
 	instance_destroy();
 	
 	if(global.player_lives <= 0){
+		audio_play_sound(snd_gameover, 4, false)
 		obj_ctrl.gameover = true;
 		if(global.player_score > global.high_score){
 			global.high_score = global.player_score

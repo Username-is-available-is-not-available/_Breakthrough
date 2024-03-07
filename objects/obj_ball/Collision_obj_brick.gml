@@ -1,4 +1,5 @@
-audio_play_sound(snd_Bounce, 1, false);
+audio_play_sound(snd_brickhit, 2, false)
+
 
 move_bounce_all(true);
 

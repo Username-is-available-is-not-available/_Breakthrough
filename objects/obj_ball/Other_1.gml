@@ -1,4 +1,4 @@
-audio_play_sound(snd_Bounce, 1, false);
+audio_play_sound(snd_hit, 3, false) 
 
 
 if(bbox_left < 0 or bbox_right > room_width){

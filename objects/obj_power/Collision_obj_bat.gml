@@ -1,4 +1,4 @@
-audio_play_sound(snd_powerup, 0, false)
+audio_play_sound(snd_powerup, 1, false)
 
 if(image_index == 0){
 	with(obj_bat){

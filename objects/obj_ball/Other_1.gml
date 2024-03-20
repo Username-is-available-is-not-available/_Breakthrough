@@ -10,6 +10,7 @@ if(bbox_top < 0){
 	vspeed = vspeed * -1;
 }
 if(bbox_bottom > room_height){
+	audio_play_sound(snd_gameover, 4, false)
 	global.player_lives -= 1;
 	instance_destroy();
 	

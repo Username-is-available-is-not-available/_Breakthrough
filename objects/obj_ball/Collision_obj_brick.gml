@@ -1,4 +1,4 @@
-audio_play_sound(snd_metal_pipe, 0, false)
+audio_play_sound(snd_brickhit, 0, false)
 
 
 move_bounce_all(true);

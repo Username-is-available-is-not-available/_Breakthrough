@@ -10,6 +10,7 @@
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},"order":0,},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},"order":0,},
     {"id":{"name":"fnt_game2","path":"fonts/fnt_game2/fnt_game2.yy",},"order":1,},
+    {"id":{"name":"SPR_FUN","path":"sprites/SPR_FUN/SPR_FUN.yy",},"order":11,},
     {"id":{"name":"spr_power","path":"sprites/spr_power/spr_power.yy",},"order":10,},
     {"id":{"name":"snd_metal_pipe","path":"sounds/snd_metal_pipe/snd_metal_pipe.yy",},"order":4,},
     {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},"order":1,},
